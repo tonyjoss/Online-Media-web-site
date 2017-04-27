@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contacts</title>
+    <link rel="stylesheet" href="css/bower.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper" id="wrapper">
+    <a href="#" class="back-to-top">Back to Top</a>
+    <div class="container container__Header">
+        <div class="topHeader__section">
+            <nav class="navbar navbar-default navbarHeader navbar-fixed-top navbarFixedBlack">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="logo" class="navbar-brand hidden-xs" href="#" ><img src="images/12black.png" alt=""></a>
+                    <a class="navbar-brand" id="logoHidden" style="display: none" href="#"><img src="images/12.png" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbarMenu" id="bs-example-navbar-collapse-1">
+                    <!--<ul class="nav navbar-nav navbar-right navbarBlack navbarBlack__right">-->
+                    <!--<li><a class="link__mobile" href="#">ru</a></li>-->
+                    <!--<li><a class="link__mobile" href="#">en</a></li>-->
+                    <!--</ul>-->
+                    <ul class="nav navbar-nav navbar-right navbarBlack ">
+                        <li><a  href="#">Eng</a></li>
+                        <li><a  href="#">Ru</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar__left navbarBlack">
+                        <li class="main_dropdown">
+                            <a  href="javascript: void(0);" class="navbar__btn navbar__btnOpen">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="glyphicon glyphicon-menu-hamburger open__icon"></span>
+                                <span class="tittle__menu">
+                                    Услуги
+                                </span>
+                            </a>
+                            <ul class="nav__menuDrop">
+                                <li><a href="#"><span>Разработка сайта</span></a></li>
+                                <li><a href="#"><span>Комплексный маркетинг</span></a></li>
+                                <li><a href="#"><span>Реклама СРС</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="portfolio.html">Портфолио</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="aboute_us.html">О Нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </div>
+    <!--<div class="container">-->
+        <!--<div class="aboute__usText">-->
+            <!--<h2 class="text__h2 h2Big">-->
+                <!--про нас-->
+            <!--</h2>-->
+            <!--<div class="link__little">-->
+                <!--<a href="#">Главная</a>-->
+                <!--<img src="images/sdas.png" alt="">-->
+                <!--<a href="#">Про нас</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="iframe__section">
+        <div class="container">
+            <div class="aboute__usText">
+                <h2 class="text__h2 h2Big">
+                    про нас
+                </h2>
+                <div class="link__little">
+                    <a href="#">Главная</a>
+                    <img src="images/sdas.png" alt="">
+                    <a href="#">Про нас</a>
+                </div>
+            </div>
+        </div>
+        <div class="formContact__wrapper formContact__wrapperContacts">
+            <div class="formContactText__wrapper">
+                <div class="img_AbouteUs">
+                    <img src="images/letter.png" alt="">
+                </div>
+                <div class="textInfoContacts textInfoContactsForm">
+                    <h3 class="h3_Text h3_TextFormContainer h3_TextFormContainerContacts">прямая связь</h3>
+                    <p class="smallText__Contacts smallText__Contacts-pageContacts">
+                        Вы также можете написать нам
+                        на почту и в течении 12 часов
+                        мы дадим Вам подробный ответ!
+                        Также Вы можете связаться с нами
+                        используя данные ниже:
+                    </p>
+                    <p class="telephone telephoneContacts__page">
+                        Телефон: +38 (000) 000-00-000
+                    </p>
+                    <p class="mail mailContacts__page">
+                        E-mail: info@business2online.com
+                    </p>
+                </div>
+            </div>
+            <div class="addInfoAboute__us">
+                <p>Если у Вас есть вопрос по разработке сайта, или Вы хотите
+                    увеличить продажи, — смело задавайте его нам</p>
+            </div>
+            <div class="form form__contacts">
+                <form id="application" name="form">
+                    <br style="clear:both">
+                    <div class="form-group formSubscribeInput">
+                        <i class="fa fa-user user__icon" aria-hidden="true"></i>
+                        <input type= "text" name= "name" id="applicationName" class="form-control rfield" placeholder="Ваше имя" required="required">
+                    </div>
+                    <div class="form-group formSubscribeInput">
+                        <i class="fa fa-envelope-o mail__icon"  aria-hidden="true"></i>
+                        <input type= "text" name= "email" id="applicationEmail" class="form-control input__email rfield" placeholder="E-mail" required="required">
+                    </div>
+                    <div class="form-grou formSubscribeInputTelephone">
+                        <i class="fa fa-phone phone__icon" aria-hidden="true"></i>
+                        <input type="number" class="form-control input__telephone rfield" name="telephone"  placeholder="Ваш номер телефона" required="required">
+                    </div>
+                    <div class="form-group formSubscribeInputTextarea">
+                        <i class="fa fa-commenting-o message__icon" aria-hidden="true"></i>
+                        <textarea rows= "10" cols= "45" name= "message" class="form-control textareaInput rfield" form="application"></textarea>
+                    </div>
+
+                    <div class="button__develop">
+                        <button id="btn" class="applicationButton button__Buy btnOrder feedback disabled" type="submit" form="application"> Отправить </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="map">
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+            <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d646.9711996630032!2d25.648223629212136!3d49.56219679871016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473033e805ad6ef3%3A0x7c07551f1776c5bd!2sOnline+Media!5e0!3m2!1sru!2sua!4v1491397173311" width="600" height="450" frameborder="0" style="border:0" allowfullscreen ></iframe>
+
+            <!--<iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.8823828635764!2d25.64658421532008!3d49.56224237936267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473033e81a385d8b%3A0x3fd67a5d15ce8b09!2z0JHQtdGA0Lgg0LLQtdC30Lg!5e0!3m2!1suk!2sua!4v1491393606710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+            <!--<iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1293.9425942830787!2d25.64745617864679!3d49.562189441878665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473033e81a385d8b%3A0x3fd67a5d15ce8b09!2z0JHQtdGA0Lgg0LLQtdC30Lg!5e0!3m2!1suk!2sua!4v1491393187619" ></iframe>-->
+            <!--<iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1494.9717937498092!2d25.646339873699656!3d49.56180672694673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1491392304354" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+            <!--<iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5175.783801229736!2d25.648937699999998!3d49.5620628!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1490706869680" width="255" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer__top">
+        <div class="container">
+            <div class="row footerText__row">
+                <div class="col-md-3 col-xs-6 developSite">
+                    <h3 class="h3_Text h3_TextFooter">Разработка сайтов</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                Создание landing page
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Создание корпоративних сайтов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Создание интернет магазинов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Создание логотипов
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <h3 class="h3_Text h3_TextFooter">Увеличение продаж</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                SEO оптимизация
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Контекстная реклама
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-1 col-xs-6 col__company">
+                    <h3 class="h3_Text h3_TextFooter">О компании</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                Агенство
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Команда
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-xs-12 contactsFooter">
+                    <h3 class="h3_Text h3_TextFooter">Контакты</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                <p class="telephone telephoneFooter">
+                                    Телефон: +38 (000) 000-00-000
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="mail telephoneFooter">
+                                    E-mail: info@business2online.com
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="reserved">
+                Все права защищены. Business2Online 2017
+            </p>
+        </div>
+    </div>
+</footer>
+<script src="js/bower.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>

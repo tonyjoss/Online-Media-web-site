@@ -1,0 +1,902 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name = "format-detection" content = "telephone=no" />
+    <link rel="stylesheet" href="bower/jparallax/css/jquery.parallax.css">
+    <link rel="stylesheet" href="bower/jparallax/css/base.css">
+    <link rel="stylesheet" href="css/bower.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Online Media</title>
+</head>
+<body>
+<div class="wrapper" id="wrapper">
+    <a href="#" class="back-to-top">Back to Top</a>
+    <div class="container container__Header">
+        <div class="topHeader__section">
+            <nav class="navbar navbar-default navbarHeader navbar-fixed-top">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/12.png" alt=""></a>
+                    <!--<a class="navbar-brand" id="logoHidden" style="display: none" href="#"><img src="images/logo.png" alt=""></a>-->
+                </div>
+
+
+                <div class="collapse navbar-collapse navbarMenu" id="bs-example-navbar-collapse-1">
+                    <!--<div class="navbar__headerMenu pull-left">-->
+                        <!--<button type="button" class="navbar__btn navbar__btnOpen">-->
+                            <!--<span class="sr-only">Toggle navigation</span>-->
+                            <!--<span class="glyphicon glyphicon-menu-hamburger open__icon"></span>-->
+                            <!--<span class="tittle__menu">-->
+                                <!--Услуги-->
+                            <!--</span>-->
+                        <!--</button>-->
+                        <!--<ul class="nav__menu">-->
+                            <!--<li><a href="#"><span>Разработка сайта</span></a></li>-->
+                            <!--<li><a href="#"><span>Комплексный маркетинг</span></a></li>-->
+                            <!--<li><a href="#"><span>Реклама СРС</span></a></li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a  href="#">Eng</a></li>
+                        <li><a  href="#">Ru</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar__left">
+                        <li class="main_dropdown">
+                            <a  href="javascript: void(0);" class="navbar__btn navbar__btnOpen">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="glyphicon glyphicon-menu-hamburger open__icon"></span>
+                                <span class="tittle__menu">
+                                    Услуги
+                                </span>
+                            </a>
+                            <ul class="nav__menuDrop">
+                                <li><a href="develop_page.html"><span>Разработка сайта</span></a></li>
+                                <li><a href="marketing-page.html"><span>Комплексный маркетинг</span></a></li>
+                                <li><a href="#"><span>Реклама СРС</span></a></li>
+                            </ul>
+                        </li>
+                        <!--<li class="menu-item dropdown dropdownLi navbar__btn navbar__btnOpen">-->
+                            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги<b class="caret"></b></a>-->
+                            <!--&lt;!&ndash;<ul class="dropdown-menu">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li class="menu-item dropdown dropdown-submenu">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#" class="dropdown-toggle submenuColorWhite" data-toggle="dropdown">Разработка сайта</a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<ul class="dropdown-menu">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li class="menu-item ">&ndash;&gt;&ndash;&gt;-->
+                                            <!--&lt;!&ndash;&lt;!&ndash;<a href="#">Link 1</a>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;</li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li><a href="#">Landing Page</a></li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li><a href="#">Корпоративный сайт</a></li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li><a href="#">Интернет-магазин</a></li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li class="menu-item dropdown dropdown-submenu">&ndash;&gt;&ndash;&gt;-->
+                                            <!--&lt;!&ndash;&lt;!&ndash;<a href="#" class="dropdown-toggle" data-toggle="dropdown">Level 2</a>&ndash;&gt;&ndash;&gt;-->
+                                            <!--&lt;!&ndash;&lt;!&ndash;<ul class="dropdown-menu">&ndash;&gt;&ndash;&gt;-->
+                                                <!--&lt;!&ndash;&lt;!&ndash;<li>&ndash;&gt;&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;&lt;!&ndash;<a href="#">Link 3</a>&ndash;&gt;&ndash;&gt;-->
+                                                <!--&lt;!&ndash;&lt;!&ndash;</li>&ndash;&gt;&ndash;&gt;-->
+                                            <!--&lt;!&ndash;&lt;!&ndash;</ul>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;</li>&ndash;&gt;&ndash;&gt;-->
+                                    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</li>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li class="menu-item dropdown dropdown-submenu">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#" class="dropdown-toggle submenuColorWhite" data-toggle="dropdown">Комплексный маркетинг</a>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</li>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li class="menu-item dropdown dropdown-submenu">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#" class="dropdown-toggle submenuColorWhite" data-toggle="dropdown">Реклама СРС</a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<ul class="dropdown-menu">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li class="menu-item ">&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<a href="#">Link 1</a>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;</li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li><a class="submenuColorWhite" href="#">Google AdWords</a></li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li><a class="submenuColorWhite" href="#">Admixer</a></li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li><a class="submenuColorWhite" href="#">Yandex Direct</a></li>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;<li class="menu-item dropdown dropdown-submenu">&ndash;&gt;&ndash;&gt;-->
+                                            <!--&lt;!&ndash;&lt;!&ndash;<a href="#" class="dropdown-toggle" data-toggle="dropdown">Level 2</a>&ndash;&gt;&ndash;&gt;-->
+                                            <!--&lt;!&ndash;&lt;!&ndash;<ul class="dropdown-menu">&ndash;&gt;&ndash;&gt;-->
+                                                <!--&lt;!&ndash;&lt;!&ndash;<li>&ndash;&gt;&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;&lt;!&ndash;<a href="#">Link 3</a>&ndash;&gt;&ndash;&gt;-->
+                                                <!--&lt;!&ndash;&lt;!&ndash;</li>&ndash;&gt;&ndash;&gt;-->
+                                            <!--&lt;!&ndash;&lt;!&ndash;</ul>&ndash;&gt;&ndash;&gt;-->
+                                        <!--&lt;!&ndash;&lt;!&ndash;</li>&ndash;&gt;&ndash;&gt;-->
+                                    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                                <!--&lt;!&ndash;</li>&ndash;&gt;-->
+
+                            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                        <!--</li>-->
+                        <li><a href="portfolio.html">Портфолио</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="aboute_us.html">О Нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </div>
+    <div class="img__container">
+        <div class="img__header">
+            <!--<img src="images/ws_Misty-Mountains_2560x1600.jpg" alt="" >-->
+            <img src="images/Layer39.jpg" alt="">
+            <!--<ul id="port">-->
+                <!--<li class="parallax-layer">-->
+                    <!--<img src="images/cloudParalax.png" alt="">-->
+                <!--</li>-->
+            <!--</ul>-->
+            <div class="animaredblock">
+                <ul id="scene">
+                    <!--<li class="layer" data-depth="0.10"><img  src="images/134.png"></li>-->
+                    <!--<li class="layer" data-depth="0.05"><img src="images/cloudParalax.png"></li>-->
+                    <!--<li class="layer" data-depth="0.10"><img class="parallaxImg" src="images/plain.png"></li>-->
+
+                    <li class="layer" data-depth="0.05"><img class="parallaxImg" src="images/cloudParalax.png"></li>
+                    <li class="layer" data-depth="0.10"><img class="parallaxImg" src="images/cloudParalax.png"></li>
+                    <li class="layer" data-depth="0.10"><img class="parallaxImg__first" src="images/cloudParalax.png"></li>
+                    <li class="layer" data-depth="0.10"><img class="parallaxImg__two" src="images/cloudParalax.png"></li>
+
+                    <li class="layer" data-depth="0.05"><img class="parallaxImg__two" src="images/cloud/CloudPNG12.png"></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="imgText__Container">
+                <h1 class="h1Text">
+                    достигайте вершин  <br>
+                    вместе с нами
+                </h1>
+                <div class="smallText__headerContainer">
+                    <p class="smallText__header hidden-xs hidden-sm hidden-md">
+                        Создаем эффективные сайты и целевые страницы,
+                        планируем SEO стратегию и запускаем контекстную рекламу
+                        для повышения трафика на Ваш сайт
+                    </p>
+                </div>
+            </div>
+
+            <div class="imgIcon__header">
+                <!--<a href="#" class="mouse" id="mouse"></a>-->
+            </div>
+        </div>
+    </div>
+    <div class="develop">
+        <div class="container container__develop">
+            <div class="row develop__row">
+                <div class="col-md-7">
+                    <div class="leftSection hidden-xs hidden-sm hidden-md hidden-lg">
+                        <img clsrc="images/desctop.png" alt="">
+                    </div>
+                    <div class="leftSection hidden-xs hidden-sm desctopImgCut">
+                        <img class="leftSectionPhoto" src="images/21.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 rightSectionCollumn">
+                    <div class="rightSection">
+                        <div class="textRight__section">
+                            <h2 class="h2Text">
+                                создание и продвижения сайтов
+                            </h2>
+                            <p class="smallTextRigt__section">
+                                Корпоративный сайт — незаменимый бизнес атрибут каждой компании.
+                                Любой бизнес, без качественного, продающего сайта, не сможет полностью реализовать свой потенциал.
+                                У 75% компаний в Украине - сайт является основным источником поступления заявок от клиентов.
+                                Уже все владельцы бизнеса понимают важность наличия сайта,
+                                однако мало кто из них понимает - как именно должен выглядеть их будущий сайт, какими функциями он должен обладать,
+                                какую информацию размещать на данном ресурсе, чтобы он начал приносить прибыль.
+                                Вся суть продающего сайта - донести до потенциального клиента уникальные выгоды и преимущества Вашего продукта.
+                                Рассказать ему и обосновать, что цена, которую он заплатит за Ваш продукт в несколько раз меньше, чем выгоды,
+                                которые он получит от данного продукта.
+                                Не всегда программист и даже дизайнер обладают нужными способностями,
+                                чтобы качественно составить уникальное торговое предложение и грамотно презентовать его на сайте.
+                                Для этой задачи в веб студии должен быть штатный маркетолог, который выполнит все смысловые задачи проекта.
+                                В нашей студии два таких специалиста, которые помогут Вам создать качественный продающий сайт.
+                            </p>
+                            <!--<p class="smallTextRigt__section">-->
+                                <!--Praesent ac enim et quam placerat finibus. Quisque elementum bibendum lobortis. Proin tellus libero,-->
+                                <!--efficitur eu urna in, interdum maximus urna. Mauris vel justo viverra, finibus dolor eu, hendrerit velit.-->
+                            <!--</p>-->
+                            <!--<p class="smallTextRigt__section">-->
+                                <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim, est a dapibus tincidunt, ligula-->
+                                <!--quam egestas leo, at rhoncus turpis enim quis est. Etiam ut aliquam arcu. Pellentesque vitae mattis-->
+                                <!--velit. Donec bibendum consectetur massa sed sollicitudin. Proin ultricies tempor dui ut rhoncus.-->
+                                <!--Ut lobortis finibus turpis eu consectetur. Cras ut enim sit amet libero mattis interdum. Fusce sed-->
+                                <!--porttitor purus. Vestibulum fringilla quam quam, et egestas nisi aliquam at. Pellentesque eu-->
+                                <!--ultricies erat.-->
+                            <!--</p>-->
+                            <!--<p class="smallTextRigt__section">-->
+                                <!--Praesent ac enim et quam placerat finibus. Quisque elementum bibendum lobortis. Proin tellus libero,-->
+                                <!--efficitur eu urna in, interdum maximus urna. Mauris vel justo viverra, finibus dolor eu, hendrerit velit.-->
+                            <!--</p>-->
+                            <!--<p class="smallTextRigt__section">-->
+                                <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim, est a dapibus tincidunt, ligula-->
+                                <!--quam egestas leo, at rhoncus turpis enim quis est. Etiam ut aliquam arcu. Pellentesque vitae mattis-->
+                                <!--velit. Donec bibendum consectetur massa sed sollicitudin. Proin ultricies tempor dui ut rhoncus.-->
+                                <!--Ut lobortis finibus turpis eu consectetur. Cras ut enim sit amet libero mattis interdum. Fusce sed-->
+                                <!--porttitor purus. Vestibulum fringilla quam quam, et egestas nisi aliquam at. Pellentesque eu-->
+                                <!--ultricies erat.-->
+                            <!--</p>-->
+                        </div>
+                        <div class="leftSection hidden-md hidden-lg">
+                            <img src="images/desctop.png" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="button__develop">
+                                    <a href="#" class="button__Buy">
+                                        заказать сайт
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="button__develop ">
+                                    <a href="#" class="button__Buy button__developPortfolio">
+                                        портфолио
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="develop__info">
+        <div class="container">
+            <h2 class="h2Text">
+                Разработаные нами сайты лучше чем у других
+            </h2>
+            <div class="row">
+                <ul class="develop__structure">
+                        <li class="col-sm-6 col-md-6">
+                            <a href="#">
+                                <img class="developInfo__icons" src="images/structure.png" alt="">
+                                <div class="TextInfo__develop">
+                                    <h3 class="h3_Text">
+                                        грамотная структура
+                                    </h3>
+                                    <p class="smallTextDevelop__Structure">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        accumsan lectus consequat nisl maximus fermentum. Fusce quis
+                                        tortor euismod, porta mi vel, malesuada quam. Maecenas eu arcu
+                                        sed massa finibus dignissim. Integer eu consectetur tortor,
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-sm-6 col-md-6">
+                            <a href="#">
+                                <img class="developInfo__icons" src="images/idea.png" alt="">
+                                <div class="TextInfo__develop">
+                                    <h3 class="h3_Text">
+                                        Эксклюзивный дизайн
+                                    </h3>
+                                    <p class="smallTextDevelop__Structure">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        accumsan lectus consequat nisl maximus fermentum. Fusce quis
+                                        tortor euismod, porta mi vel, malesuada quam. Maecenas eu arcu
+                                        sed massa finibus dignissim. Integer eu consectetur tortor,
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-sm-6 col-md-6">
+                            <a href="#">
+                                <img class="developInfo__icons" src="images/circular-chart.png" alt="">
+                                <div class="TextInfo__develop">
+                                    <h3 class="h3_Text">
+                                        seo-оптимизация
+                                    </h3>
+                                    <p class="smallTextDevelop__Structure">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        accumsan lectus consequat nisl maximus fermentum. Fusce quis
+                                        tortor euismod, porta mi vel, malesuada quam. Maecenas eu arcu
+                                        sed massa finibus dignissim. Integer eu consectetur tortor,
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-sm-6 col-md-6">
+                            <a href="#">
+                                <img class="developInfo__icons" src="images/megaphone-with-sound-waves.png" alt="">
+                                <div class="TextInfo__develop">
+                                    <h3 class="h3_Text">
+                                        Эффективная рекламная компания
+                                    </h3>
+                                    <p class="smallTextDevelop__Structure">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        accumsan lectus consequat nisl maximus fermentum. Fusce quis
+                                        tortor euismod, porta mi vel, malesuada quam. Maecenas eu arcu
+                                        sed massa finibus dignissim. Integer eu consectetur tortor,
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="whatWeDo__info">
+        <div class="container">
+            <h2 class="h2Text">
+                что мы делаем
+            </h2>
+            <div class="row">
+                <ul class="bxslider">
+                    <li>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="thumbnail thumbnailWhatWeDo">
+                                <div class="TextInfo__develop">
+                                    <h3 class="h3_Text h3_TextWhatweDo">
+                                        Разработка сайта
+                                    </h3>
+                                    <p class="smallTextDevelop__Structure">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        accumsan lectus consequat nisl maximus fermentum. Fusce quis
+                                        tortor euismod, porta mi vel, malesuada quam. Maecenas eu arcu
+                                        sed massa finibus dignissim. Integer eu consectetur tortor,
+                                    </p>
+                                </div>
+                                <div class="caption caption__whatweDo">
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Landing Page</p>
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Корпоративний сайт</p>
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Интернет магазин</p>
+                                </div>
+                                <div class="button__develop button__developWhatWeDo">
+                                    <a href="#" class="button__Buy btnOrder">
+                                        заказать сайт
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="slider__whatweDoImg">
+                                <img src="images/slide1-whatwedo.jpg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="thumbnail thumbnailWhatWeDo">
+                                <div class="TextInfo__develop">
+                                    <h3 class="h3_Text h3_TextWhatweDo">
+                                        Комплексний маркетинг
+                                    </h3>
+                                    <p class="smallTextDevelop__Structure">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        accumsan lectus consequat nisl maximus fermentum. Fusce quis
+                                        tortor euismod, porta mi vel, malesuada quam. Maecenas eu arcu
+                                        sed massa finibus dignissim. Integer eu consectetur tortor,
+                                    </p>
+                                </div>
+                                <div class="caption caption__whatweDo">
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  СЕО</p>
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Интернет Маркетинг</p>
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Контент-маркетинг</p>
+                                </div>
+                                <div class="button__develop button__developWhatWeDo">
+                                    <a href="#" class="button__Buy btnOrder">
+                                        заказать сайт
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="slider__whatweDoImg">
+                                <img src="images/slide2whatwedo.jpg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="thumbnail thumbnailWhatWeDo">
+                                <div class="TextInfo__develop">
+                                    <h3 class="h3_Text h3_TextWhatweDo">
+                                        Реклама СРС
+                                    </h3>
+                                    <p class="smallTextDevelop__Structure">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        accumsan lectus consequat nisl maximus fermentum. Fusce quis
+                                        tortor euismod, porta mi vel, malesuada quam. Maecenas eu arcu
+                                        sed massa finibus dignissim. Integer eu consectetur tortor,
+                                    </p>
+                                </div>
+                                <div class="caption caption__whatweDo">
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Google AdWords</p>
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Yandex Direct</p>
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Admixer</p>
+                                    <p><i class="fa fa-check checkIcon" aria-hidden="true"></i>  Реклама VK  Facebook</p>
+                                </div>
+                                <div class="button__develop button__developWhatWeDo">
+                                    <a href="#" class="button__Buy btnOrder">
+                                        заказать сайт
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="slider__whatweDoImg">
+                                <img src="images/slide3whatwedo.jpg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="img-bottom">
+            <img src="images/top.png" alt="">
+        </div>
+    </div>
+    <div class="form__container">
+        <div class="container formInit">
+            <div class="formContactText__wrapper">
+                <div class="img_AbouteUs">
+                    <img src="images/whiteLetter.png" alt="">
+                </div>
+                <div class="textInfoContacts textInfoContactsForm">
+                    <h3 class="h3_Text h3_TextFormContainer">прямая связь</h3>
+                    <p class="smallText__Contacts">
+                        Вы также можете написать нам
+                        на почту и в течении 12 часов
+                        мы дадим Вам подробный ответ!
+                        Также Вы можете связаться с нами
+                        используя данные ниже:
+                    </p>
+                    <p class="telephone">
+                        Телефон: +38 (000) 000-00-000
+                    </p>
+                    <p class="mail">
+                        E-mail: info@business2online.com
+                    </p>
+                </div>
+            </div>
+            <div class="formContact__wrapper pull-right">
+                <div class="addInfoAboute__us">
+                    <p>Если у Вас есть вопрос по разработке сайта, или Вы хотите
+                        увеличить продажи, — смело задавайте его нам</p>
+                </div>
+                <div class="form">
+                    <form id="application" name="form">
+                        <br style="clear:both">
+                        <div class="form-group formSubscribeInput">
+                            <i class="fa fa-user user__icon" aria-hidden="true"></i>
+                            <input type= "text" name= "name" id="applicationName" class="form-control rfield" placeholder="Ваше имя" required="required">
+                        </div>
+                        <div class="form-group formSubscribeInput">
+                            <i class="fa fa-envelope-o mail__icon"  aria-hidden="true"></i>
+                            <input type= "text" name= "email" id="applicationEmail" class="form-control input__email rfield" placeholder="E-mail" required="required">
+                        </div>
+                        <div class="form-group formSubscribeInputTelephone">
+                            <i class="fa fa-phone phone__icon" aria-hidden="true"></i>
+                            <input type="number" class="form-control input__telephone rfield" name="telephone"  placeholder="Ваш номер телефона" required="required">
+                        </div>
+                        <div class="form-group formSubscribeInputTextarea">
+                            <i class="fa fa-commenting-o message__icon" aria-hidden="true"></i>
+                            <textarea rows= "10" cols= "45" name= "message" class="form-control textareaInput rfield" form="application"></textarea>
+                        </div>
+
+                        <div class="button__develop">
+                            <button id="btn" class="applicationButton button__Buy btnOrder feedback disabled" type="submit" form="application"> Отправить </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners">
+        <div class="img-top">
+            <img src="images/bot.png" alt="">
+        </div>
+        <div class="container">
+            <h2 class="h2Text">
+                Наши клиенты
+            </h2>
+            <div class="mis-stage slider-client">
+                <ul class="mis-slider">
+                    <li class="mis-slide">
+                        <a href="javascript: void(0);">
+                            <img class="clienr__img" src="images/logo-partners/logogipster.png" alt="Pond">
+                        </a>
+                    </li>
+
+                    <li class="mis-slide">
+                        <a href="javascript: void(0);">
+                            <img class="clienr__img" src="images/logo-partners/logo2.png" alt="Pond">
+                        </a>
+                    </li>
+                    <li class="mis-slide">
+                        <a href="javascript: void(0);">
+                            <img class="clienr__img" src="images/logo-partners/logo1.png" alt="Pond">
+                        </a>
+                    </li>
+
+                    <li class="mis-slide">
+                        <a href="javascript: void(0);">
+                            <img class="clienr__img" src="images/logo-partners/logo8.png" alt="Pond">
+                        </a>
+                    </li>
+                    <!--<li class="mis-slide">-->
+                        <!--<a href="javascript: void(0);">-->
+                            <!--<img class="clienr__img" src="images/logo-partners/logo3.png" alt="Pond">-->
+                        <!--</a>-->
+                    <!--</li>-->
+                    <li class="mis-slide">
+                        <a href="javascript: void(0);">
+                            <img class="clienr__img" src="images/logo-partners/logo.png" alt="Pond">
+                        </a>
+                    </li>
+                    <li class="mis-slide">
+                        <a href="javascript: void(0);">
+                            <img class="clienr__img" src="images/logo-partners/logo4.png" alt="Pond">
+                        </a>
+                    </li>
+                    <!--<li class="mis-slide">-->
+                        <!--<a href="javascript: void(0);">-->
+                            <!--<img class="clienr__img" src="images/logo-partners/logo5.png" alt="Pond">-->
+                        <!--</a>-->
+                    <!--</li>-->
+                    <li class="mis-slide">
+                        <a href="javascript: void(0);">
+                            <img class="clienr__img" src="images/logo-partners/logo6.png" alt="Pond">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+
+            <!--<div class="slider-client">-->
+                <!--&lt;!&ndash;<button class="btn-next">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="fa fa-chevron-right left__arrrowSliderClient" aria-hidden="true"></i>&ndash;&gt;-->
+                <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                <!--&lt;!&ndash;<button class="btn-prev">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="fa fa-chevron-left right__arrrowSliderClient" aria-hidden="true"></i>&ndash;&gt;-->
+                <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                <!--<div class="" id="slick">-->
+                    <!--<div><img src="images/logogipster.png" alt=""></div>-->
+                    <!--<div><img src="images/logogipster.png" alt=""></div>-->
+                    <!--<div><img src="images/logogipster.png" alt=""></div>-->
+                    <!--<div><img src="images/logogipster.png" alt=""></div>-->
+                    <!--<div><img src="images/logogipster.png" alt=""></div>-->
+                    <!--<div><img src="images/logogipster.png" alt=""></div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <!--<div class="contact__us">-->
+        <!--<div class="container containerAboute__us">-->
+            <!--<div class="row rowContact__us">-->
+                <!--<div class="col-md-6 col-sm-6">-->
+                    <!--<div class="row geoLocationAboutr__us">-->
+                        <!--<div class="col-md-6 collumnContacts">-->
+                            <!--<div class="img_AbouteUs">-->
+                                <!--<img src="images/letter.png" alt="">-->
+                            <!--</div>-->
+                            <!--<div class="textInfoContacts">-->
+                                <!--<h3 class="h3_Text">прямая связь</h3>-->
+                                <!--<p class="smallText__Contacts">-->
+                                    <!--Вы также можете написать нам-->
+                                    <!--на почту и в течении 12 часов-->
+                                    <!--мы дадим Вам подробный ответ!-->
+                                    <!--Также Вы можете связаться с нами-->
+                                    <!--используя данные ниже:-->
+                                <!--</p>-->
+                                <!--<p class="telephone">-->
+                                    <!--Телефон: +38 (000) 000-00-000-->
+                                <!--</p>-->
+                                <!--<p class="mail">-->
+                                    <!--E-mail: info@business2online.com-->
+                                <!--</p>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                        <!--<div class="col-md-6 collumnContacts">-->
+                            <!--<img class="img_AbouteUs" src="images/geo.png" alt="">-->
+                            <!--<div class="textInfoContacts">-->
+                                <!--<h3 class="h3_Text">наш офис</h3>-->
+                                <!--<p class="smallText__Contacts">-->
+                                    <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, unde.-->
+                                <!--</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;<div class="addInfoAboute__us">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<p>Если у Вас есть вопрос по разработке сайта, или Вы хотите&ndash;&gt;-->
+                            <!--&lt;!&ndash;увеличить продажи, — смело задавайте его нам</p>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="form">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<form id="application" name="form">&ndash;&gt;-->
+                            <!--&lt;!&ndash;<br style="clear:both">&ndash;&gt;-->
+                            <!--&lt;!&ndash;<div class="form-group formSubscribeInput">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<i class="fa fa-user user__icon" aria-hidden="true"></i>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<input type= "text" name= "name" id="applicationName" class="form-control rfield" placeholder="Ваше имя" required="required">&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<div class="form-group formSubscribeInput">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<i class="fa fa-envelope-o mail__icon"  aria-hidden="true"></i>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<input type= "text" name= "email" id="applicationEmail" class="form-control input__email rfield" placeholder="E-mail" required="required">&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<div class="form-grou formSubscribeInputTelephone">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<i class="fa fa-phone phone__icon" aria-hidden="true"></i>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<input type="number" class="form-control input__telephone rfield" name="telephone"  placeholder="Ваш номер телефона" required="required">&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<div class="form-group formSubscribeInputTextarea">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<i class="fa fa-commenting-o message__icon" aria-hidden="true"></i>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<textarea rows= "10" cols= "45" name= "message" class="form-control textareaInput rfield" form="application"></textarea>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                            <!--&lt;!&ndash;<div class="button__develop">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<button id="btn" class="applicationButton button__Buy btnOrder feedback disabled" type="submit" form="application"> Отправить </button>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</form>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                <!--</div>-->
+                <!--<div class="col-md-6 col-sm-6 RigtSectionAbouteUs">-->
+                    <!--&lt;!&ndash;<div class="map">&ndash;&gt;-->
+                        <!--<iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5175.783801229736!2d25.648937699999998!3d49.5620628!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1490706869680" width="255" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                        <!--&lt;!&ndash;<img class="img_AbouteUs pull-right img_AbouteUsTel imgTel__iframe" src="images/telephone.png" alt="">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="question">
+    <div class="container">
+        <h2 class="h2Text">
+            часто задаваемые вопросы
+        </h2>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Как быстро мой сайт окажется на первом месте?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Время попадания в ТОП зависит от множества различных факторов.
+                        Основным параметром и наиболее длительным является то время,
+                        которое необходимо поисковой системе для индексации ссылочной массы.
+                        Данный критерий зависит исключительно от поисковой системы и скорости работы поисковых «роботов»,
+                        а также качества внутренней оптимизации сайта, уникальности его контента,
+                        возраста доменного имени и многое многое другое. Как только сайт будет максимально
+                        соответствовать требованиям поисковых систем, тогда сайт и будет занимать лидирующие позиции в поисковой выдаче.
+                        Так же не стоит забывать, что критерии и требования поисковых алгоритмом часто меняются и
+                        необходимо постоянно «держать руку на пульсе», что бы Ваш сайт не опустился из ТОПа.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            question
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Collapsible Content #2
+                    </div>
+                </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <i class="fa fa-plus"></i>
+                                question
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Collapsible Content #3
+                        </div>
+                    </div>
+                </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            <i class="fa fa-plus"></i>
+                            question
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Collapsible Content #3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<footer>
+    <!--<div class="contact__us">-->
+        <!--<div class="container containerAboute__us">-->
+            <!--<div class="row rowContact__us">-->
+                <!--<div class="col-md-6 col-sm-6">-->
+                    <!--<div class="row geoLocationAboutr__us">-->
+                        <!--<div class="col-md-6 collumnContacts">-->
+                            <!--<div class="img_AbouteUs">-->
+                                <!--<img src="images/letter.png" alt="">-->
+                            <!--</div>-->
+                            <!--<div class="textInfoContacts">-->
+                                <!--<h3 class="h3_Text">прямая связь</h3>-->
+                                <!--<p class="smallText__Contacts">-->
+                                    <!--Вы также можете написать нам-->
+                                    <!--на почту и в течении 12 часов-->
+                                    <!--мы дадим Вам подробный ответ!-->
+                                    <!--Также Вы можете связаться с нами-->
+                                    <!--используя данные ниже:-->
+                                <!--</p>-->
+                                <!--<p class="telephone">-->
+                                    <!--Телефон: +38 (000) 000-00-000-->
+                                <!--</p>-->
+                                <!--<p class="mail">-->
+                                    <!--E-mail: info@business2online.com-->
+                                <!--</p>-->
+                            <!--</div>-->
+
+                        <!--</div>-->
+                        <!--<div class="col-md-6 collumnContacts">-->
+                            <!--<img class="img_AbouteUs" src="images/geo.png" alt="">-->
+                            <!--<div class="textInfoContacts">-->
+                                <!--<h3 class="h3_Text">наш офис</h3>-->
+                                <!--<p class="smallText__Contacts">-->
+                                    <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, unde.-->
+                                <!--</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;<div class="addInfoAboute__us">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<p>Если у Вас есть вопрос по разработке сайта, или Вы хотите&ndash;&gt;-->
+                    <!--&lt;!&ndash;увеличить продажи, — смело задавайте его нам</p>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="form">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<form id="application" name="form">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<br style="clear:both">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="form-group formSubscribeInput">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="fa fa-user user__icon" aria-hidden="true"></i>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type= "text" name= "name" id="applicationName" class="form-control rfield" placeholder="Ваше имя" required="required">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="form-group formSubscribeInput">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="fa fa-envelope-o mail__icon"  aria-hidden="true"></i>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type= "text" name= "email" id="applicationEmail" class="form-control input__email rfield" placeholder="E-mail" required="required">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="form-grou formSubscribeInputTelephone">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="fa fa-phone phone__icon" aria-hidden="true"></i>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type="number" class="form-control input__telephone rfield" name="telephone"  placeholder="Ваш номер телефона" required="required">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="form-group formSubscribeInputTextarea">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="fa fa-commenting-o message__icon" aria-hidden="true"></i>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<textarea rows= "10" cols= "45" name= "message" class="form-control textareaInput rfield" form="application"></textarea>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<div class="button__develop">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<button id="btn" class="applicationButton button__Buy btnOrder feedback disabled" type="submit" form="application"> Отправить </button>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</form>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                <!--</div>-->
+                <!--<div class="col-md-6 col-sm-6 RigtSectionAbouteUs">-->
+                    <!--&lt;!&ndash;<div class="map">&ndash;&gt;-->
+                    <!--<iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5175.783801229736!2d25.648937699999998!3d49.5620628!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1490706869680" width="255" height="455" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                    <!--&lt;!&ndash;<img class="img_AbouteUs pull-right img_AbouteUsTel imgTel__iframe" src="images/telephone.png" alt="">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="footer__top">
+        <div class="container">
+            <div class="row footerText__row">
+                <div class="col-md-3 col-xs-6 developSite">
+                    <h3 class="h3_Text h3_TextFooter">Разработка сайтов</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                Создание landing page
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Создание корпоративних сайтов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               Создание интернет магазинов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Создание логотипов
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <h3 class="h3_Text h3_TextFooter">Увеличение продаж</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                SEO оптимизация
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Контекстная реклама
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-1 col-xs-6 col__company">
+                    <h3 class="h3_Text h3_TextFooter">О компании</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                Агенство
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Команда
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-xs-12 contactsFooter">
+                    <h3 class="h3_Text h3_TextFooter">Контакты</h3>
+                    <ul class="footer__link">
+                        <li>
+                            <a href="#">
+                                <p class="telephone telephoneFooter">
+                                    Телефон: +38 (000) 000-00-000
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="mail telephoneFooter">
+                                    E-mail: info@business2online.com
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="reserved">
+                Все права защищены. Business2Online 2017
+            </p>
+        </div>
+    </div>
+    <!--<div class="footer__bottom">-->
+        <!--<p class="reserved">-->
+            <!--Все права защищены. Business2Online 2017-->
+        <!--</p>-->
+    <!--</div>-->
+</footer>
+<script src="js/bower.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
